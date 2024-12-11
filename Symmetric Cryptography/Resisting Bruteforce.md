@@ -1,0 +1,2 @@
+- Nếu một block cipher an toàn thì kẻ tấn công không có cách nào phân biệt được đầu ra của AES với một hoán vị bit ngẫu nhiên. Nếu chỉ bằng cách tấn công Bruteforce (như Exhausted Attack) thì sẽ không khả thi do sự bảo vệ chắc chắn của 128 bit.
+- Có một cách tấn công vào AES hiệu quả hơn Bruteforce là "biclique" (tấn công vào cấu trúc )nhưng nó chỉ giảm 128 bit xuống 126.1 bit và không được cải thiện sau hơn 8 năm. Mặc dù vậy nhưng nó vẫn được gọi là "phá vỡ" AES
